@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Red Leaf</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/main.css"/>
+        
+    </head>
+    <body class="container-fluid p-0">
+        <div class="main-page"> 
+            <div class="page1">
+                <div>
+                    <a href="#" class="logo m-0 p-0">Red Leaf</a>
+                </div>
+           
+                <div class="block1">
+                    <div class="text-center redleaf">
+                        <div class="row">
+                            <div class="col-12">
+                                <h1 style="text-align: center;font-size:100px;color:grey;"> COMING SOON</h1>
+                                <p style="text-align: center; color: white;">We Are Almost There, Stay Tuned For Something Amazing!!</p> 
+                            </div>
+                        </div>
+                        
+                        <div class=" text-center countdown row" style="color: white;">
+                            <div class="col-xs-12 col-md-6 offset-md-3">
+                                <div class="row">
+                                    <div class="col-3 contdown_days">
+                                        <div class="number">635</div>
+                                        <span style="font-size: small;">
+                                            DAYS
+                                        </span>
+                                    </div>
+                                    <div class=" col-3 contdown_hours">
+                                        <div class="number">9</div>
+                                        <span style="font-size: small;">
+                                            HOURS
+                                        </span>
+                                    </div>
+                                
+                                    <div class=" col-3 contdown_minutes">
+                                        <div class="number">20</div>
+                                        <span style="font-size: small;">
+                                            MINUTES
+                                        </span>
+                                    </div>
+                                    <div class="col-3 contdown_seconds">
+                                        <div id="countdowntimer">15</div>
+                                        <span style="font-size: small;">
+                                            SECONDS
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>   
+                        <a href="index.html" class="home">Back To Home</a> 
+                
+                        </div>
+                    </div>
+       
+            </div>
+           
+            <div class="right text-center">
+                <p>© 2019 Red leaf. All rights reserved | Design by <span style="color: white; font-size: 20px;">UCS</span></p>
+            </div> 
+           <img src="./images/error1.jpg" class="img-responsive" style="transform: translate(-2.5px, 10px) scale(1.1);">
+        </div>
+
+    <footer>
+       
+    
+            <script src="js/jquery-3.3.1.slim.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="js/owl.carousel.min.js"></script>
+
+            <script src="js/main.js"></script>
+            <script>
+                var timeleft = 59;
+                var downloadTimer = setInterval(function(){
+                timeleft--;
+                document.getElementById("countdowntimer").textContent = timeleft;
+                if(timeleft <= 0)
+                    clearInterval(downloadTimer);
+                },1000);
+            </script>
+
+        </footer>
+    </body>
+</html>
